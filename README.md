@@ -13,7 +13,7 @@ This project is not exhaustive and is intended to be a living document.
 
 ## Papers
 
-In this section, we provide a selection of seminal and recent papers in soft robotics. To maintain clarity and focus, we have organized the papers by topic. Each topic has its own dedicated markdown file inside the /papers directory. 
+In this section, we provide a selection of seminal and recent papers in soft robotics. To maintain clarity and focus, we have organized the papers by topic. Each topic has its own dedicated markdown file inside the `/papers` directory. 
 
 Here is an index of the topics covered:
 
@@ -34,4 +34,4 @@ Here is an index of the topics covered:
 
 ## Researchers
 
-Here we highlight some of the leading and influential researchers who are shaping the future of soft robotics. Each researcher has a dedicated profile page located in the /researchers directory. These profiles may include a brief bio, key contributions, and a link to their lab or publications.
+Here we highlight some of the leading and influential researchers who are shaping the future of soft robotics. Each researcher has a dedicated profile page located in the `/researchers` directory. These profiles may include a brief bio, key contributions, and a link to their lab or publications.
