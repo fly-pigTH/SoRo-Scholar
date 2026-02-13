@@ -1,6 +1,6 @@
 ![](./media/logo/logo.png)
 # SoRo-Scholar: A Paper List of Soft Robotics Research
-Made by YL and QY...
+Made by YL and QY..
 Welcome to SoRo-Scholar! This is a curated list for papers, researchers and labs in the field of Soft Robotics. This project is started by [Yinglei Zhu](https://fly-pigth.github.io/) and [Qiyao Wang](https://king-bridge.github.io/) at October 2025.
 
 The goal of this project is to provide a resource for researchers, students, and enthusiasts to quickly get up to speed on the foundational knowledge and latest advancements in the world of soft robotics.
