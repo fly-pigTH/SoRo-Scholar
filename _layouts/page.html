@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="container">
+  <article class="page-content">
+    {% if page.parent %}
+    <nav class="breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span>&rsaquo;</span>
+      {% if page.parent == "Papers" %}
+      <a href="{{ '/papers/' | relative_url }}">Papers</a>
+      {% elsif page.parent == "Researchers" %}
+      <a href="{{ '/researchers/' | relative_url }}">Researchers</a>
+      {% endif %}
+    </nav>
+    {% endif %}
+    {{ content }}
+  </article>
+</div>

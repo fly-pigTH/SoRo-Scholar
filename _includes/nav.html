@@ -1,0 +1,17 @@
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="{{ '/' | relative_url }}" class="nav-brand">
+      <img src="{{ '/media/logo/logo.png' | relative_url }}" alt="" height="36">
+      <span>SoRo-Scholar</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/papers/' | relative_url }}" {% if page.url contains '/papers/' %}class="active"{% endif %}>Papers</a>
+      <a href="{{ '/researchers/' | relative_url }}" {% if page.url contains '/researchers/' %}class="active"{% endif %}>Researchers</a>
+      <a href="{{ site.repository }}" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</nav>

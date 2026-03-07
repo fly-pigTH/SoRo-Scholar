@@ -1,0 +1,31 @@
+title: SoRo-Scholar
+tagline: The open-source index for soft robotics research
+description: >-
+  A community-curated map of soft robotics research — papers, researchers, labs,
+  conferences, and tools.
+baseurl: "/SoRo-Scholar"
+url: "https://fly-pigTH.github.io"
+repository: "https://github.com/fly-pigTH/SoRo-Scholar"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTRIBUTING.md
+  - .github
+  - .claude
+  - .DS_Store
+  - node_modules
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: "index.md"
+    values:
+      layout: home

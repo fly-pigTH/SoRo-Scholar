@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="hero-content">
+    <img src="{{ '/media/logo/logo.png' | relative_url }}" alt="SoRo-Scholar" class="hero-logo">
+    <p class="hero-tagline">{{ site.description }}</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-number">50+</span>
+        <span class="stat-label">Papers</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">25</span>
+        <span class="stat-label">Researchers</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">22</span>
+        <span class="stat-label">Labs</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">9</span>
+        <span class="stat-label">Countries</span>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="#papers" class="btn btn-primary">Browse Papers</a>
+      <a href="{{ site.repository }}" class="btn btn-outline" target="_blank" rel="noopener">Star on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  {{ content }}
+</div>
