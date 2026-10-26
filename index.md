@@ -159,6 +159,7 @@ Major research labs dedicated to soft robotics.
 | [SoftGym](https://github.com/Xingyu-Lin/softgym) | RL benchmarks for deformable objects |
 | [PyElastica](https://github.com/GazzolaLab/PyElastica) | Cosserat rod simulation |
 | [DiffTaichi](https://github.com/taichi-dev/difftaichi) | Differentiable soft body simulation |
+| [AgentFEM Morph Lab](https://lab.haoming-luo.com/morph/) | Browser demo of planar, quasi-static flexible-rod inverse design from target points or sketched curves |
 
 ---
 
